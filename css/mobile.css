@@ -1,12 +1,9 @@
 @media (max-width: 414px) {
   h1 {
-    top: 16rem;
     font-size: 1.2rem;
   }
 
   input {
-    margin-top: -50%;
-    transform: translate(-50%);
     font-size: 1.2rem;
   }
 }
