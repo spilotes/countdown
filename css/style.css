@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#030008),
+    to(#00131a)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  overflow-x: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 14rem;
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+input {
+  position: absolute;
+  font-size: 2.2rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.5rem;
+  top: 18rem;
+}
