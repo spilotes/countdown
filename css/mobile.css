@@ -1,9 +1,11 @@
 @media (max-width: 414px) {
   h1 {
+    top: 40vh;
     font-size: 1.2rem;
   }
 
   input {
+    top: 47vh;
     font-size: 1.2rem;
   }
 }
