@@ -3,6 +3,10 @@
     top: 0;
   }
 
+  .puck1 {
+    top: 25vh;
+  }
+
   h1 {
     top: 37vh;
     font-size: 1.2rem;
@@ -18,7 +22,7 @@
   }
 
   .links-container aside .whatsapp {
-    left: -8vw;
+    left: -12vw;
   }
 
   .links-container aside .instagram {
