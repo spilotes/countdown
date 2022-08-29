@@ -23,10 +23,15 @@
   }
 
   .links-container aside .whatsapp {
-    left: -14vw;
+    left: -15vw;
   }
 
   .links-container aside .instagram {
     left: 3vw;
+  }
+
+  .leitura {
+    top: 70vh;
+    left: 20.7vw;
   }
 }
