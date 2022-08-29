@@ -25,9 +25,29 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+  position: absolute;
+  width: 100vw;
+  top: -7rem;
+  left: 0;
+  border-bottom-left-radius: 25%;
+}
+
+.puck1 {
+  position: absolute;
+  width: 7rem;
+  top: 16.5vw;
+  left: 46vw;
+  transition: all 0.5s ease-in-out;
+}
+
+.puck1:hover {
+  filter: drop-shadow(0 0 0.5rem #c9d1d9);
+}
+
 h1 {
   position: absolute;
-  top: 43vh;
+  top: 48vh;
   color: #c9d1d9;
   font-size: 1.3rem;
   font-weight: 300;
@@ -39,6 +59,56 @@ input {
   padding: 0.8rem 1.2rem;
   border: 1px solid #c9d1d9;
   border-radius: 0.5rem;
-  top: 50vh;
+  top: 55vh;
   background-color: #c9d1d9;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  top: 65vh;
+  position: absolute;
+}
+
+.links-container aside {
+  display: flex;
+}
+
+.links-container aside a {
+  text-decoration: none;
+}
+
+.links-container aside i {
+  position: absolute;
+  width: 3.1rem;
+  display: flex;
+  cursor: pointer;
+  font-size: 2.7rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.links-container aside .whatsapp {
+  color: #c9d1d9;
+  left: -5vw;
+}
+
+.links-container aside .whatsapp:hover {
+  transform: scale(1.05);
+}
+
+.links-container aside .instagram {
+  color: #c9d1d9;
+  left: 1vw;
+}
+
+.links-container aside .instagram:hover {
+  transform: scale(1.05);
+}
+
+#s-home .links-container aside .whatsapp:hover {
+  transform: scale(1.05);
 }
