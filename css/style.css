@@ -102,13 +102,25 @@ input {
 
 .links-container aside .instagram {
   color: #c9d1d9;
-  left: 1vw;
+  left: 2vw;
 }
 
 .links-container aside .instagram:hover {
   transform: scale(1.05);
 }
 
-#s-home .links-container aside .whatsapp:hover {
+.links-container aside .whatsapp:hover {
   transform: scale(1.05);
+}
+
+.leitura {
+  position: absolute;
+  width: 16rem;
+  top: 80vh;
+  left: 40.7vw;
+  transition: all 0.5s ease-in-out;
+}
+
+.leitura:hover {
+  transform: scale(1.03);
 }
