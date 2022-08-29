@@ -1,4 +1,8 @@
 @media (max-width: 414px) {
+  .header {
+    top: 0;
+  }
+
   h1 {
     top: 37vh;
     font-size: 1.2rem;
@@ -7,5 +11,17 @@
   input {
     top: 43vh;
     font-size: 1.2rem;
+  }
+
+  .links-container {
+    top: 55vh;
+  }
+
+  .links-container aside .whatsapp {
+    left: -8vw;
+  }
+
+  .links-container aside .instagram {
+    left: 3vw;
   }
 }
