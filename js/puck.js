@@ -10,3 +10,13 @@ item.animate(
     iterations: Infinity,
   }
 );
+
+item2.animate(
+  [{ transform: "translateX(0.5rem)" }, { transform: "translateY()" }],
+  {
+    duration: 1700,
+    easing: "ease-in-out",
+    direction: "alternate",
+    iterations: Infinity,
+  }
+);

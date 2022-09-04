@@ -37,12 +37,24 @@ body {
   position: absolute;
   width: 7rem;
   top: 16.5vw;
-  left: 46vw;
+  left: 50vw;
   transition: all 0.5s ease-in-out;
 }
 
 .puck1:hover {
   filter: drop-shadow(0 0 0.5rem #c9d1d9);
+}
+
+.puck2 {
+  position: absolute;
+  width: 4.3rem;
+  top: 16.5vw;
+  left: 43vw;
+  transition: all 0.5s ease-in-out;
+}
+
+.puck2:hover {
+  filter: drop-shadow(0 0 0.4rem #c9d1d9);
 }
 
 h1 {
